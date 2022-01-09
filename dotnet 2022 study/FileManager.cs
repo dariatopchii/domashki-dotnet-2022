@@ -4,13 +4,13 @@ using System.Linq;
 
 namespace dotnet_2022_study
 {
-    public static class FileManager
+    public class FileManager
     {
-        public static string Path = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+        public string Path = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
 
-        public static void CreateFile(string filename)
+        public void CreateFile(string filename)
         {
-            if (!File.Exists($@"{Path}\{filename}"))
+            if (!File.Exists($@"{Path}\{filename}") && !Directory.Exists(($@"{Path}\{filename}")))
             {
                 using (File.Create($@"{Path}\{filename}"))
                 {
@@ -23,7 +23,7 @@ namespace dotnet_2022_study
             }
         }
 
-        public static void DeleteFile(string filename)
+        public void DeleteFile(string filename)
         {
             var filepath = $@"{Path}\{filename}";
             if (File.Exists(filepath))
@@ -37,7 +37,7 @@ namespace dotnet_2022_study
             }
         }
 
-        public static void RenameFile(string oldname, string newname )
+        public void RenameFile(string oldname, string newname )
         {
             if (File.Exists($@"{Path}\{oldname}"))
             {
@@ -51,7 +51,7 @@ namespace dotnet_2022_study
         }
         
         
-        public static void CreateDirectory(string dirname)
+        public void CreateDirectory(string dirname)
         {
             var newDir = $@"{Path}\{dirname}";
             if (!Directory.Exists(newDir) && !File.Exists(newDir))
@@ -66,7 +66,7 @@ namespace dotnet_2022_study
            
         }
         
-        public static void DeleteDirectory(string dirname)
+        public void DeleteDirectory(string dirname)
         {
             var dirPath = $@"{Path}\{dirname}";
             if (Directory.Exists(dirPath))
@@ -80,7 +80,7 @@ namespace dotnet_2022_study
             }
         }
         
-        public static void RenameDirectory(string oldname, string newname)
+        public void RenameDirectory(string oldname, string newname)
         {
             var oldpath = $@"{Path}\{oldname}";
             var newpath = $@"{Path}\{newname}";
@@ -96,7 +96,7 @@ namespace dotnet_2022_study
 
         }
 
-        public static void ChangeDirectory(string[] commline)
+        public void ChangeDirectory(string[] commline)
         {
             if (commline.Length > 1)
             {
@@ -104,16 +104,17 @@ namespace dotnet_2022_study
                 {
                     Path = $@"{Path}\{commline[2]}";
                 }
-                else if (Directory.Exists(commline[1]))
-                {
-                    Path =  commline[1];
-                }
                 else if(commline[1] == ".." && commline.Length <3) 
                 {
                     var cut = Path.LastIndexOf("\\");
                     Path = Path.Substring(0, cut);
                     Console.WriteLine(Path);
                 }
+                else if (Directory.Exists(commline[1]))
+                {
+                    Path =  commline[1];
+                }
+                
                 else
                 {
                     Console.WriteLine("there is no directory with such path");
@@ -122,7 +123,7 @@ namespace dotnet_2022_study
            
         }
 
-        public static void DirectoryInfo(string[] input)
+        public void DirectoryInfo(string[] input)
         {
             if (input.Length > 1)
             {
@@ -166,19 +167,21 @@ namespace dotnet_2022_study
             }
         }
         
-        public static void Print(IOrderedEnumerable<string> sorted)
+        public void Print(IOrderedEnumerable<string> sorted)
         {
             Console.WriteLine(Path);
             foreach (var s in sorted) Console.WriteLine(s);
         }
 
-        public static void FindSubstring(string path, string substring)
+        public void FindSubstring(string path, string substring)
         {
             string filepath = $@"{Path}\{path}";
+            
             using (StreamReader sr = File.OpenText(filepath))
             {
                 string lines = File.ReadAllText((filepath));
                 bool isMatch = false;
+                
                 for (int x = 0; x < lines.Length - 1; x++)
                 {
                     if (lines.Contains(substring))
@@ -198,7 +201,7 @@ namespace dotnet_2022_study
             
         }
 
-        public static void PrintFile(string path)
+        public void PrintFile(string path)
         {
 
             using (StreamReader file = new StreamReader($@"{Path}\{path}"))
@@ -219,9 +222,7 @@ namespace dotnet_2022_study
             }
         }
 
-
-
-        public static void Help()
+        public void Help()
         {
             Console.WriteLine("available commands: \n mkdir - creates directory \n rmdir - deletes directory \n rndir - renames directory \n cd - changes directory \n ls - show all files in directory " +
                               "\n     -a  - shows all files and their properties \n     -s - sorts all files by size \n     -t - sorts all files by extention \n     -h - hides hidden files " +
