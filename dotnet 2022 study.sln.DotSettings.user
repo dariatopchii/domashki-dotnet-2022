@@ -1,0 +1,59 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1941c803_002D4a33_002D4c66_002Da080_002D9bc232ae5a3e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeDirectory_CurrentDirectory_Changes #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2c64d6e3_002Ddfb2_002D4d18_002D80f7_002Dab694421c26e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CreateFile_FileNotExists_Creates #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.CreateFile_FileNotExists_Creates&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2f7ce15f_002D1092_002D4b0e_002D967a_002D3ed49af16d32/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CreateFile_FileNotExists_Creates #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.CreateFile_FileNotExists_Creates&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7347ea1a_002D5a15_002D4882_002Da9d3_002D716a63f82986/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeDirectory_CurrentDirectory_Changes" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.ChangeDirectory_CurrentDirectory_Changes&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.FindSubstring_SearchesForString&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.DirectoryInfo_Directory_ShowsInfo&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.CreateFile_FileNotExists_Creates&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7989f903_002D8cb4_002D4626_002Dbf22_002D47885c53d356/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CreateFile_FileNotExists_Creates #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.CreateFile_FileNotExists_Creates&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c87860a4_002D8335_002D41ce_002Dad94_002D766992ae8636/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CreateFile_FileNotExists_Creates #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.CreateFile_FileNotExists_Creates&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cc3979de_002D559e_002D4186_002D8199_002D470e0eff1fad/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FindSubstring_SearchesForString" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.FindSubstring_SearchesForString&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f0c43f2d_002Ddb04_002D41ac_002Db2b0_002D79b50cf3bc40/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CreateFile_FileNotExists_Creates" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.CreateFile_FileNotExists_Creates&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.DeleteFIle_FileExists_Deletes&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.RenameFile_FileName_Changes&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.CreateDirectory_DirectoryNotExists_Creates&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.DeleteDirectory_DirectoryExists_Deletes&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.RenameDirectory_DirectoryName_Changes&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.CreateFile_FileNotExists_CreatesDouble&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.RenameFile_FileNotExists_Changes&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.ChangeDirectory_CurrentDirectory_Changes&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.DirectoryInfo_Directory_ShowsInfo&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests.FindSubstring_SearchesForString&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f6b58251_002D2167_002D4dc3_002D8754_002Dd82ba0286a40/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ChangeDirectory_CurrentDirectory_Changes #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::89C67B3D-37C2-4CCC-ACFD-0D79424AA78A::net5.0::TestProject.FileManagerTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
