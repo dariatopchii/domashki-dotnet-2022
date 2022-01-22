@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PL", "PL\PL.csproj", "{C1EF0BF2-191B-4CCB-B2D6-EE966E142F39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFrameWorkCore", "TestFrameWorkCore\TestFrameWorkCore.csproj", "{513462D2-CBEA-4182-B4BF-151E069C1D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFrameworkBLL", "TestFrameworkBLL\TestFrameworkBLL.csproj", "{902C50AF-CF20-4FFB-99D0-FF3282F362EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFrameworkTestClass", "TestFrameworkTestClass\TestFrameworkTestClass.csproj", "{E0500E32-6D51-4628-B84D-34E052ADCB85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1EF0BF2-191B-4CCB-B2D6-EE966E142F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1EF0BF2-191B-4CCB-B2D6-EE966E142F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1EF0BF2-191B-4CCB-B2D6-EE966E142F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1EF0BF2-191B-4CCB-B2D6-EE966E142F39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{513462D2-CBEA-4182-B4BF-151E069C1D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513462D2-CBEA-4182-B4BF-151E069C1D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513462D2-CBEA-4182-B4BF-151E069C1D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513462D2-CBEA-4182-B4BF-151E069C1D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{902C50AF-CF20-4FFB-99D0-FF3282F362EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{902C50AF-CF20-4FFB-99D0-FF3282F362EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{902C50AF-CF20-4FFB-99D0-FF3282F362EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{902C50AF-CF20-4FFB-99D0-FF3282F362EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0500E32-6D51-4628-B84D-34E052ADCB85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0500E32-6D51-4628-B84D-34E052ADCB85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0500E32-6D51-4628-B84D-34E052ADCB85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0500E32-6D51-4628-B84D-34E052ADCB85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
